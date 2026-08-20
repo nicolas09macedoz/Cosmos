@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #05070d;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* MENU */
+
+header {
+    background: #0a0d16;
+    padding: 20px;
+}
+
+nav {
+    width: 1400px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 20px;
+}
+
+nav span {
+    color: #9ba8ff;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+}
+
+.menu a {
+    color: #aaa;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #9ba8ff;
+}
+
+
+/* INÍCIO */
+
+.inicio {
+    width: 1400px;
+    margin: auto;
+    padding: 110px 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.inicio-texto {
+    width: 55%;
+}
+
+.inicio small,
+.titulo small,
+.introducao small {
+    color: #9ba8ff;
+    letter-spacing: 2px;
+}
+
+.inicio h1 {
+    font-size: 65px;
+    margin: 20px 0;
+}
+
+.inicio h1 span {
+    color: #9ba8ff;
+}
+
+.inicio p {
+    color: #aaa;
+    line-height: 1.6;
+    width: 600px;
+}
+
+.botao {
+    display: inline-block;
+
+    margin-top: 25px;
+    padding: 13px 20px;
+
+    background: #151b30;
+    border: 1px solid #6877c5;
+
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background: #6877c5;
+    color: #05070d;
+}
+
+
+/* IMAGEM PRINCIPAL */
+
+.inicio-imagem {
+    width: 430px;
+}
+
+.inicio-imagem img {
+    width: 100%;
+    border-radius: 50%;
+
+    transition: 0.4s;
+}
+
+.inicio-imagem img:hover {
+    transform: scale(1.03);
+}
+
+
+/* SEÇÕES */
+
+.introducao,
+.sistema,
+.universo,
+.curiosidades,
+.exploracao {
+    width: 1400px;
+    margin: auto;
+    padding: 90px 20px;
+}
+
+.introducao h2,
+.titulo h2 {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.introducao p,
+.titulo p {
+    width: 650px;
+    color: #aaa;
+    line-height: 1.7;
+}
+
+
+/* PLANETAS */
+
+.sistema {
+    text-align: center;
+}
+
+.sistema .titulo p {
+    margin: auto;
+}
+
+.planetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+
+    margin-top: 40px;
+}
+
+.planeta {
+    background: #0d111c;
+    border: 1px solid #202638;
+
+    padding: 20px;
+
+    width: 330px;
+    height: 230px;
+
+    text-align: left;
+
+    transition: 0.3s;
+}
+
+.planeta:hover {
+    border-color: #6877c5;
+    transform: translateY(-5px);
+}
+
+.planeta img {
+    width: 135px;
+    height: 135px;
+
+    display: block;
+    margin: auto;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    transition: 0.3s;
+}
+
+.planeta:hover img {
+    transform: scale(1.05);
+}
+
+.planeta h3 {
+    margin-top: 10px;
+}
+
+.planeta p {
+    color: #888;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.destaque {
+    border: 1px solid #6877c5;
+}
+
+
+/* UNIVERSO */
+
+.universo {
+    border-top: 1px solid #202638;
+}
+
+.universo-itens {
+    display: flex;
+    gap: 20px;
+
+    margin-top: 40px;
+}
+
+.universo-itens > div {
+    background: #0d111c;
+    border: 1px solid #202638;
+
+    padding: 30px;
+
+    width: 33%;
+    height: 250px;
+
+    transition: 0.3s;
+}
+
+.universo-itens > div:hover {
+    border-color: #6877c5;
+    transform: translateY(-5px);
+}
+
+.icone {
+    font-size: 40px;
+    color: #9ba8ff;
+
+    margin-bottom: 20px;
+
+    transition: 0.3s;
+}
+
+.universo-itens > div:hover .icone {
+    transform: scale(1.1);
+}
+
+.universo-itens h3 {
+    margin-bottom: 10px;
+}
+
+.universo-itens p {
+    color: #aaa;
+    line-height: 1.6;
+}
+
+
+/* CURIOSIDADES */
+
+.curiosidades {
+    display: flex;
+    gap: 80px;
+
+    border-top: 1px solid #202638;
+}
+
+.curiosidades .titulo {
+    width: 35%;
+}
+
+.curiosidades-lista {
+    width: 65%;
+}
+
+.curiosidades-lista > div {
+    display: flex;
+    gap: 20px;
+
+    padding: 20px 0;
+
+    border-bottom: 1px solid #202638;
+
+    transition: 0.3s;
+}
+
+.curiosidades-lista > div:hover {
+    padding-left: 8px;
+    border-color: #6877c5;
+}
+
+.curiosidades-lista span {
+    color: #9ba8ff;
+}
+
+.curiosidades-lista h3 {
+    margin-bottom: 8px;
+}
+
+.curiosidades-lista p {
+    color: #999;
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+
+/* EXPLORAÇÃO */
+
+.exploracao {
+    border-top: 1px solid #202638;
+}
+
+.linha {
+    margin-top: 40px;
+}
+
+.linha div {
+    border-left: 2px solid #6877c5;
+
+    padding: 15px 25px;
+
+    margin-bottom: 20px;
+
+    background: #0d111c;
+
+    transition: 0.3s;
+}
+
+.linha div:hover {
+    background: #111728;
+    padding-left: 30px;
+}
+
+.linha strong {
+    color: #9ba8ff;
+}
+
+.linha h3 {
+    margin: 8px 0;
+}
+
+.linha p {
+    color: #999;
+    line-height: 1.5;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    background: #0a0d16;
+
+    text-align: center;
+
+    padding: 50px 20px;
+}
+
+footer h2 span {
+    color: #9ba8ff;
+}
+
+footer p {
+    color: #888;
+
+    width: 400px;
+    margin: 15px auto;
+}
+
+footer div {
+    color: #555;
+    font-size: 12px;
+}
