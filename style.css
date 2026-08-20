@@ -16,7 +16,6 @@ a {
 }
 
 
-/* MENU */
 
 header {
     background: #0a0d16;
@@ -55,7 +54,6 @@ nav span {
 }
 
 
-/* INÍCIO */
 
 .inicio {
     width: 1400px;
@@ -111,7 +109,6 @@ nav span {
 }
 
 
-/* IMAGEM PRINCIPAL */
 
 .inicio-imagem {
     width: 430px;
@@ -129,7 +126,6 @@ nav span {
 }
 
 
-/* SEÇÕES */
 
 .introducao,
 .sistema,
@@ -155,7 +151,6 @@ nav span {
 }
 
 
-/* PLANETAS */
 
 .sistema {
     text-align: center;
@@ -226,7 +221,6 @@ nav span {
 }
 
 
-/* UNIVERSO */
 
 .universo {
     border-top: 1px solid #202638;
@@ -279,7 +273,6 @@ nav span {
 }
 
 
-/* CURIOSIDADES */
 
 .curiosidades {
     display: flex;
@@ -327,7 +320,6 @@ nav span {
 }
 
 
-/* EXPLORAÇÃO */
 
 .exploracao {
     border-top: 1px solid #202638;
@@ -367,8 +359,6 @@ nav span {
     line-height: 1.5;
 }
 
-
-/* RODAPÉ */
 
 footer {
     background: #0a0d16;
